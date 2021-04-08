@@ -1,7 +1,6 @@
 # Simple-Binary-Crypt-Decrypt
 This is a simple code written in Python
-
-##Example:
+## Example:
 Let's crypt the string : n40r1s
 <code>Enter the string you want to crypt
 n40r1s
