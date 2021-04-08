@@ -1,10 +1,10 @@
 def decrypt():
 	a_binary_string=input("Entre ton binary\n")
-	binary_values = a_binary_string.split()
+	binary_values = a_binary_string.split()   #Split string on whitespace
 	ascii_string = ""
 	for binary_value in binary_values:
-		an_integer = int(binary_value, 2)
-		ascii_character = chr(an_integer)
-		ascii_string += ascii_character
+		an_integer = int(binary_value, 2) #Convert to base 2 decimal integer
+		ascii_character = chr(an_integer) #Convert to ASCII character
+		ascii_string += ascii_character   #Append character to `ascii_string`
 	print(ascii_string)
 decrypt()
