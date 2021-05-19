@@ -1,5 +1,5 @@
 def decrypt():
-	a_binary_string=input("Entre ton binary\n")
+	a_binary_string=input("Enter your binary\n")
 	binary_values = a_binary_string.split()   #Split string on whitespace
 	ascii_string = ""
 	for binary_value in binary_values:
